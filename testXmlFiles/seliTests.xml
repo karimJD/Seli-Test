@@ -1,0 +1,7 @@
+<suite name="SeliTestSuite">
+    <test name="SeliTests">
+        <classes>
+            <class name="com.seli.test.SeliTest"/>
+        </classes>
+    </test>
+</suite>

@@ -23,7 +23,7 @@
 					<configuration>
 						<suiteXmlFiles>
 							<!-- TestNG suite XML files -->
-							<suiteXmlFile>testXmlFiles/amazonHomepage.xml</suiteXmlFile>
+							<suiteXmlFile>testXmlFiles/seliTests.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
@@ -60,6 +60,13 @@
 			<groupId>com.aventstack</groupId>
 			<artifactId>extentreports</artifactId>
 			<version>3.1.5</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>5.9.2</version>
 		</dependency>
 
 	</dependencies>
